@@ -1,0 +1,107 @@
+/* main setting */
+.contents {
+  margin: 212px 60px 40px;
+  width: 344px;
+  color: #FFFFFF;
+}
+
+/* h1 setting */
+.contents h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 33px;
+}
+
+/* p setting */
+.contents p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #CDCDCD;
+}
+
+/* rating setting */
+.rating {
+  display: flex;
+  align-items: center;
+  margin: 30px 0 20px;
+}
+
+.rating img {
+  margin-right: 10px;
+}
+
+.rating span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/* view count setting */
+.viewCount {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 30px;
+}
+
+.viewCount span:first-child {
+  color: #D40000;
+}
+
+/* button setting */
+.btn {
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  height: 46px;
+}
+
+.btn a {
+  text-decoration: none;
+  width: 140px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn a:first-child {
+  margin-right: 20px;
+  background-color: #D50000;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.btn a:last-child {
+  background-color: #D9D9D9;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+ .contents {
+  margin: 212px auto 0;
+  width: 344px;
+  color: #FFFFFF;
+  }
+
+  .btn {
+    display: block;
+  }
+  
+  .btn a {
+    width: 90%;
+  }
+
+  .btn a:first-child {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

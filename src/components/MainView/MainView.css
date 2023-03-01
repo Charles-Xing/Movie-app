@@ -1,0 +1,24 @@
+.mainViewContainer {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #101010;
+  padding-bottom: 0;
+}
+
+.background {
+  margin-left: 60px;
+  position: absolute;
+  width: 100vw;
+  height: 730px;
+  background-position: center;
+  background-size: cover;
+  background-image: url('/public/assets/MainView/Background.png');
+  background-repeat: no-repeat;
+} 
+
+@media screen and (max-width: 600px) {
+  .background {
+  margin-left: 0;
+  }
+}

@@ -1,0 +1,36 @@
+.newContainer {
+  width: 80%;
+  position: relative;
+}
+
+.newThisWeekRow {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 60px;
+  background-color: #101010;
+}
+
+.movie {
+  margin: 0 15px;
+}
+
+.movie:first-child {
+  margin-left: 0;
+}
+
+.movie:last-child {
+  margin-right: 0;
+}
+
+.movie p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+  .newThisWeekRow {
+    margin-left: 10px;
+  }
+}

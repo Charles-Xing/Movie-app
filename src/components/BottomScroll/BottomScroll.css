@@ -1,0 +1,26 @@
+.scroll {
+  /* margin-top: 20px; */
+  width: 120vw;
+  background-color: #101010;
+  z-index: 1;  
+} 
+
+.scrollContents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.scrollTitle {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 20px 60px 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .scrollTitle {
+    margin-left: 10px;
+  }
+}

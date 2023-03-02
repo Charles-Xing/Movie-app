@@ -1,18 +1,18 @@
 /* main settings */
 .sideNav {
-  /* position: absolute;
+  position: absolute;
   top: 0;
-  left: 0; */
+  left: 0;
   width: 60px;
-  height: auto;
+  height: 1018px;
   background-color:#1D1D1D;
   z-index: 2;
 }
 
 .sideNavOpen {
-  /* position: absolute;
+  position: absolute;
   top: 0;
-  left: 0; */
+  left: 0;
   width: 212px;
   height: 100vh;
   background-color:#101010;
@@ -68,13 +68,13 @@
 
 /* main button settings */
 .mainButton{
-  margin-top: 120px;
+  margin-top: 150px;
 }
 
 .mainButton div a {
   display: flex;
   flex-direction: row;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   color: #686868;
 }
 
@@ -95,15 +95,19 @@
   color: #FFFFFF;
 }
 
+.mainButton .active div {
+  border-bottom: 2px solid #D50000;
+}
+
 /* setting button */
 .setting {
-  margin-top: 150px;
+  margin-top: 250px;
 }
 
 .setting div a {
   display: flex;
   flex-direction: row;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   color: #FFFFFF;
 }
 

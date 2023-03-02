@@ -1,6 +1,7 @@
 .scroll {
   /* margin-top: 20px; */
   width: 120vw;
+  height: 401px;
   background-color: #101010;
   z-index: 1;  
 } 

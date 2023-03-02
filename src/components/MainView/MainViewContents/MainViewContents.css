@@ -87,7 +87,7 @@
 
 @media screen and (max-width: 600px) {
  .contents {
-  margin: 212px auto 0;
+  margin: 100px auto 100px;
   width: 344px;
   color: #FFFFFF;
   }

@@ -1,0 +1,44 @@
+.overlayContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.overlayContainer button {
+  position: absolute;
+  top:30px;
+  right: 60px;
+  border: none;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  z-index: 999;
+}
+
+.overlayContainer button svg {
+  width: 100%;
+  height: 100%;
+  color: #FFFFFF;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9;
+}
+
+/* responsible setting */
+@media screen and (min-width: 600px) {
+  .overlayContainer {
+    display: none; 
+  }
+}

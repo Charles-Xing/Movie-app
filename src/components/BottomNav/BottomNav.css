@@ -1,0 +1,40 @@
+.bottomNavContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bottomNavContainer div {
+  width: 25vw;
+  height: 70px;
+  background-color: #3C3C3C;
+}
+
+.bottomNavContainer div a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #686868;
+  margin-top: 20px;
+}
+
+.bottomNavContainer div a svg{
+  display: block;
+  height: 30px;
+  width: 30px;
+}
+
+.bottomNavContainer .active {
+  background-color: #535353;
+  border-bottom: 4px solid #D50000;
+}
+
+.bottomNavContainer .active a {
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 600px) {
+  .bottomNavContainer {
+    display: none; 
+  }
+}
